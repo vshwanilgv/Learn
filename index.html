@@ -1,111 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-  <link rel="stylesheet" href="styles/styles.css" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!--adding google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
 
-  <!--adding google fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--**Navbar** -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <!--**Navbar container** -->
+      <div class="container-fluid">
+        <a href="" class="navbar-brand mb-0 h1">
+          <img src="images/icon1.png" class="img-fluid" width="65" />
+          HCCS Web
+        </a>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link active"> Home </a>
+            </li>
+            <li class="nav-item active">
+              <a href="about.html" class="nav-link active"> About </a>
+            </li>
+            <li class="nav-item active">
+              <a href="services.html" class="nav-link active"> Services </a>
+            </li>
+            <li class="nav-item active">
+              <a href="contact.html" class="nav-link active"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--**End of the Navbar** -->
 
+    <!--Hero section-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <div class="container-fluid">
-      <a href="" class="navbar-brand mb-0 h1">
-        <img src="images/icon1.png" class="img-fluid" width="65">
-        HCCS Web
-      </a>
-      <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a href="" class="nav-link active"> Home </a>
-          </li>
-          <li class="nav-item active">
-            <a href="" class="nav-link active"> About </a>
-          </li>
-          <li class="nav-item active">
-            <a href="" class="nav-link active"> Services </a>
-          </li>
-          <li class="nav-item active">
-            <a href="" class="nav-link active"> Contact </a>
-          </li>
-        </ul>
+    <!--header image-->
+    <div
+      class="bg-image text-white"
+      style="background-image: url(images/pic1.jpg); height: 95vh"
+    >
+      <div class="mx-5">
+        <p class="p1">Let's create impactful<br />digital products</p>
+        <p class="p2 pt-3">
+          Lorem ipsum dolor sit, Placeat vitae cumque iure, ex earum maiores
+          aspernatur <br />consequuntur libero, necessitatibus
+        </p>
+        <div class="row d-flex my-5 pt-4">
+          <div class="col-md-2 text-center pt-4 pb-4">
+            <h2 class="fw-bold">150+</h2>
+            <p class="p2">Products</p>
+          </div>
+          <div class="col-md-2 text-center pt-4 pb-4">
+            <h2 class="fw-bold">400+</h2>
+            <p class="p2">Techies</p>
+          </div>
+          <div class="col-md-2 text-center pt-4 pb-4">
+            <h2 class="fw-bold">10+</h2>
+            <p class="p2">Years</p>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
 
-
-  <section>
-    <p class="font-weight-bold ms-4 display-5" style="font-family: 'Inter', sans-serif;"><b>In 2 years over 30 wining
-        products</b></p>
-    <p class="ms-4 fs-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-    <div class="container text-center">
-      <div class="row my-4">
-        <div class="col">
-          <img src="images/product1.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="400px"
-            height="300px">
-        </div>
-        <div class="col">
-          <img src="images/product1.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="400px"
-            height="300px">
-        </div>
-        <div class="col">
-          <img src="images/product1.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="400px"
-            height="300px">
-        </div>
+    <!--**Services section -Nethmi** -->
+    <div class="container-fuild pt-5">
+      <div class="row mx-5 text-dark-blue">
+        <p class="p3">Services</p>
+        <p class="display-5 fw-bold">What we do</p>
+        <p class="p2 fs-5">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+        </p>
       </div>
-
-      <div class="row my-4">
-        <div class="col">
-          <img src="images/product3.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="400px"
-            height="300px">
+      <div class="row d-flex justify-content-center mx-5">
+        <!--service card 1-->
+        <div class="col-md-4 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/stack.png"
+              alt="Photo of a stack"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <strong>Full Stack Development</strong>
+              </h5>
+              <p class="card-text">JavaScript, Serverless</p>
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <img src="images/product3.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="400px"
-            height="300px">
+        <!--end of the service card 1-->
+
+        <!--service card 2-->
+        <div class="col-md-4 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/cube.png"
+              alt="Photo of a blockchains"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><strong>Blockchains</strong></h5>
+              <p class="card-text">Private & Public blockchains</p>
+            </div>
+          </div>
+        </div>
+        <!--end of the service card 2-->
+
+        <!--service card 3-->
+        <div class="col-md-4 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/cloud-lock.png"
+              alt="Photo of a stack"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><strong>Cloud enablement</strong></h5>
+              <p class="card-text">JMicroservices, APIs, NoSQL</p>
+            </div>
+          </div>
+        </div>
+        <!--end of the service card 3-->
+
+        <!--service card 4-->
+        <div class="col-md-4 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/mobile-development (1).png"
+              alt="Photo of mobile application"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><strong>Mobile Applications</strong></h5>
+              <p class="card-text">Hybrid, Native,PWA</p>
+            </div>
+          </div>
+        </div>
+        <!--end of the service card 4-->
+
+        <!--service card 5-->
+        <div class="col-md-4 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/machine-learning.png"
+              alt="Photo of a blockchains"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><strong>Machine Learning</strong></h5>
+              <p class="card-text">Machine Learning, IoT and Big Data</p>
+            </div>
+          </div>
+        </div>
+        <!--end of the service card 5-->
+      </div>
+      <hr class="mx-3" style="color: rgba(0, 0, 0, 0.4)" />
+    </div>
+
+    <!--**End of services section**-->
+
+    <!--Winning products-->
+    <section class="mx-5">
+      <h1 class="topic-text text-dark-blue">
+        In 2 years over 30 wining products
+      </h1>
+
+      <p class="p2 fs-5">
+        We will work with you to create meaningful and impactful products for
+        you.
+      </p>
+      <div class="row d-flex justify-content-center mx-5">
+        <div class="col-md-4 pt-5 pb-5">
+          <img
+            src="images/product1.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="..."
+            width="400px"
+            height="300px"
+          />
+        </div>
+        <div class="col-md-4 pt-5 pb-5">
+          <img
+            src="images/product4.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="..."
+            width="400px"
+            height="300px"
+          />
+        </div>
+        <div class="col-md-4 pt-5 pb-5">
+          <img
+            src="images/product3.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="..."
+            width="400px"
+            height="300px"
+          />
+        </div>
+
+        <div class="col-md-4 pt-5 pb-5">
+          <img
+            src="images/product2.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="..."
+            width="400px"
+            height="300px"
+          />
+        </div>
+        <div class="col-md-4 pt-5 pb-5">
+          <img
+            src="images/product5.jpg "
+            class="img-fluid rounded mx-auto d-block"
+            alt="..."
+            width="400px"
+            height="300px"
+          />
         </div>
         <!-- <div class="col">
-                  <img src="images/product3.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="400px" height="300px">
-                </div> -->
+                    <img src="images/product3.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="400px" height="300px">
+                  </div> -->
       </div>
-    </div>
-  </section>
+    </section>
+    <!--End of Winning products section-->
 
-  <p class="font-weight-bold ms-4 display-5" style="font-family: 'Inter', sans-serif;"><b>Testimonials</b></p>
-  <p class="ms-4 fs-6">See what our client say</p>
-
+    <!-- Testimonials section-->
+  <hr class="mx-3" style="color: rgba(0, 0, 0, 0.4) "  />
+  <p class=" display-5  p3 mx-5" ><b>Testimonials</b></p>
+  <p class="mx-5 p2 fs-5 ">See what our client say</p>
+ 
+  <!--carousels-->
   <div class="" style="width: 60%; height: 500px; margin: auto;">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote"
-            viewBox="0 0 16 16">
+            >
             <path
               d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
           </svg>
-          <p class="ms-4 fs-5">Since 2019 we’ve been enjoying the services rendered by Innowise Group to implement a
-            strategically important project on modernization of a network of internal IT systems.</p>
+          <p class="ms-4 fs-5">Communication with HCCP has been smooth and transparent. They kept us informed at every step of the process,
+             and their response time to our queries has been impressive.</p>
           <span><img class="w-100 float-end" style="max-width: 200px; max-height:200px; border-radius: 200px;"
-              src="images/person1.jpg"><br>
-            <p class="float-start mx-4 h4">Dr. Udo Richter
-            <div class="text-body-secondary mt-1"> Director - 99X</div>
+              src="images/person_5.jpeg"><br>
+            <p class="float-start mx-4 h4">David Einhorn
+            <div class="text-body-secondary mt-1"> Director - Source Labs</div>
             </p>
 
           </span>
@@ -115,32 +293,32 @@
 
         <div class="carousel-item">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote"
-            viewBox="0 0 16 16">
+            >
             <path
               d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
           </svg>
-          <p class="ms-4 fs-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,
-            consectetuer adipiscing elit.</p>
+          <p class="ms-4 fs-5">HCCP's commitment to continuous improvement and staying abreast of the latest technological advancements is evident in their work. They constantly seek ways to optimize 
+            our systems and enhance efficiency, allowing us to stay ahead in a competitive market.</p>
           <span><img class="w-100 float-end" style="max-width: 200px; max-height:200px; border-radius: 200px;"
-              src="images/person3.jpeg"><br>
-            <p class="float-start mx-4 h4">Name of the person
-            <div class="text-body-secondary mt-1"> Position</div>
+              src="images/person_8.png"><br>
+            <p class="float-start mx-4 h4">Joel Greenblatt
+            <div class="text-body-secondary mt-1"> Software Architect-Praxent</div>
             </p>
 
           </span>
         </div>
         <div class="carousel-item">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote"
-            viewBox="0 0 16 16">
+            >
             <path
               d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
           </svg>
-          <p class="ms-4 fs-5">Since 2019 we’ve been enjoying the services rendered by Innowise Group to implement a
+          <p class="ms-4 fs-5">Since 2019 we've been enjoying the services rendered by Innowise Group to implement a
             strategically important project on modernization of a network of internal IT systems.</p>
           <span><img class="w-100 float-end" style="max-width: 200px; max-height:200px; border-radius: 200px;"
-              src="images/person2.png"><br>
-            <p class="float-start mx-4 h4">Name of the person
-            <div class="text-body-secondary mt-1"> Position</div>
+              src="images/person_6.png"><br>
+            <p class="float-start mx-4 h4">Adam Lewin
+            <div class="text-body-secondary mt-1"> DevOps Engineer-Salesforce</div>
             </p>
 
           </span>
@@ -148,31 +326,31 @@
 
         <div class="carousel-item">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote"
-            viewBox="0 0 16 16">
+            >
             <path
               d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
           </svg>
-          <p class="ms-4 fs-5">Since 2019 we’ve been enjoying the services rendered by Innowise Group to implement a
-            strategically important project on modernization of a network of internal IT systems.</p>
+          <p class="ms-4 fs-5">The team at HCCP exudes professionalism and is always ready to go the extra mile to meet our business needs. 
+            They took the time to understand our specific requirements, and their solutions were tailored to fit our unique challenges perfectly.</p>
           <span><img class="w-100 float-end" style="max-width: 200px; max-height:200px; border-radius: 200px;"
-              src="images/person3.jpeg"><br>
-            <p class="float-start mx-4 h4">Name of the person
-            <div class="text-body-secondary mt-1"> Position</div>
+              src="images/person_7.png"><br>
+            <p class="float-start mx-4 h4">Charlie Wazel
+            <div class="text-body-secondary mt-1"> System Analyst-Dev_Z</div>
             </p>
 
           </span>
         </div>
         <div class="carousel-item">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote"
-            viewBox="0 0 16 16">
+            >
             <path
               d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
           </svg>
-          <p class="ms-4 fs-5">Since 2019 we’ve been enjoying the services rendered by Innowise Group to implement a
-            strategically important project on modernization of a network of internal IT systems.</p>
+          <p class="ms-4 fs-5">I wholeheartedly recommend HCCP to any business seeking top-tier IT solutions and support. 
+            Their professionalism, expertise, and customer-focused approach make them a valuable partner for any organization.</p>
           <span><img class="w-100 float-end" style="max-width: 200px; max-height:200px; border-radius: 200px;"
-              src="images/person3.jpeg"><br>
-            <p class="float-start mx-4 h4">Dr. Udo Richter
+              src="images/person_4.jpg"><br>
+            <p class="float-start mx-4 h4">Cathie Wood
             <div class="text-body-secondary mt-1"> Director - 99X</div>
             </p>
 
@@ -180,22 +358,184 @@
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    
   </div>
+  <!--End of Testimonials section-->
 
+    <!--**Product section** -->
+    <div class="bg-dark-blue text-white row">
+      <div class="col-lg-6 col-md-12 pl-1 p-5">
+        <h1 class="topic-text">Let's Talk About your Product</h1>
+        <p class="me-3 pt-4">
+          We love engaging with new clients and our community. If you have an
+          inquiry about building digital products or any other questions, get in
+          touch!
+        </p>
+        <div class="row pt-4 mx-3">
+          <div class="col-lg-4 col-md-4 col-sm-5 col-8 border border-2 rounded">
+            jordan@hccs.io
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-1"></div>
+          
+          <div class="col-lg-4 col-md-4 col-sm-6 col-8 border border-2 rounded">
+            +94 789 456526
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-1"></div>
+      <!--**Profiles** -->
+      <div class="col-lg-4 col-12 mt-2 mx-5 ">
+        <div class="row pt-5 justify-content-center">
+          <div class="col-4">
+            <img src="images/person_1.png " class="" width="100" />
+          </div>
+          <div class="col-6 col-2 line-space-min pt-3 pl-2">
+            <p class="text-name">Jordan Belfort</p>
+            <p class="">Chairman</p>
+            <p>jordan@hccs.io</p>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+        <div class="row pt-4 pb-4 justify-content-center">
+          <div class="col-4">
+            <img src="images/person_2.png " class="" width="100" />
+          </div>
+          <div class="col-6  line-space-min pt-3 pl-2">
+            <p class="text-name">Andrew Tate</p>
+            <p class="">Chairman</p>
+            <p>tate@hccs.io</p>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--**End of the Product section** -->
 
+    <!--**Number section** -->
 
+    <div class="row d-flex justify-content-center my-5 bg-light-gray">
+      <div class="col-md-4 text-center pt-4 pb-4">
+        <p class="font-size-numbers fw-bold">+5</p>
+        <p class="font-size-text-under-numbers fw-bold">Years of expertise</p>
+      </div>
+      <div class="col-md-4 text-center pt-4 pb-4">
+        <p class="font-size-numbers fw-bold">+500</p>
+        <p class="font-size-text-under-numbers fw-bold">IT professionals</p>
+      </div>
+      <div class="col-md-4 text-center pt-4 pb-4">
+        <p class="font-size-numbers fw-bold">+200</p>
+        <p class="font-size-text-under-numbers fw-bold">Projects</p>
+      </div>
+    </div>
+    <!--**End of the Number section** -->
 
+  
 
-</body>
+    <!--**Footer** -->
+    <footer class="bg-dark-blue text-white text-center text-lg-start mt-5 pt-4">
+      <!-- Grid container -->
+      <div class="container p-2">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-12 mb-8 mb-md-0">
+            <h5 class="">Products</h5>
+            <!-- Section: links -->
+            <div class="row pt-4 mx-3">
+              <div class="col-6">
+                <a href="index.html" class="nav-link active"> Home </a>
+              </div>
+              <div class="col-6">
+                <a href="about.html" class="nav-link active"> About </a>
+              </div>
+            </div>
+            <div class="row pt-4 mx-3 ">
+              <div class="col-6">
+                <a href="services.html" class="nav-link active"> Services </a>
+              </div>
+              <div class="col-6">
+                <a href="contact.html" class="nav-link active"> Contact </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-8 mb-md-0 ">
+            <h5 class="">Connect</h5>
+            <!-- Grid container -->
+            <div class="container pt-4">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-facebook"></i>
+                </a>
 
+                <!-- Twitter -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-twitter"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-linkedin"></i>
+                </a>
+
+                <!-- Github -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-envelope-fill"></i>
+                </a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+            <h5 class="">Contact</h5>
+            <p>
+              <i class="bi bi-envelope-fill me-3"></i>
+              hccs@gmail.com
+            </p>
+            <p>
+              <i class="bi bi-house me-3"></i> No.04, Bambalapitiya, Sri Lanka
+            </p>
+
+            <p><i class="bi bi-telephone-fill me-3"></i> + 94 234 567 88</p>
+            <p><i class="bi bi-telephone-fill me-3"></i> + 94 234 567 89</p>
+          </div>
+        </div>
+        <!--Grid row-->
+      </div>
+       <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="index.html">HCCS Web</a>
+  </div>
+  <!-- Copyright -->
+    </footer>
+    <!--End of footer-->
+  </body>
 </html>
